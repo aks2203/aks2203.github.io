@@ -19,7 +19,7 @@ a {
 }
 
 h3 {
-  color: gray;
+  color: "#3159a9";
 }
 
 .pub {
@@ -27,3 +27,15 @@ h3 {
         text-indent:0em;
 }
 
+.banner {
+  background: grey;
+  /*width: 100%;*/
+  padding: 60;
+  text-align: center;
+  color: white;
+  /*position:absolute;*/
+  /*top:0px;*/
+  /*right:0px;*/
+  /*bottom:0px;*/
+  /*left:0px;*/
+}
