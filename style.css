@@ -1,0 +1,29 @@
+body {
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    font-family: Helvetica,"Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+    font-size: .9375em;
+    line-height: 1.65em;
+    background: #fff;
+    color: #222;
+    margin: auto;
+    max-width: 662px;
+    padding: 0 20px;
+    margin-top: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+h3 {
+  color: gray;
+}
+
+.pub {
+        padding-left: 1.5em;
+        text-indent:0em;
+}
+
