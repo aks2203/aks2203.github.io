@@ -18,8 +18,8 @@ a {
   color: gray;
 }
 
-h3 {
-  color: "#3159a9";
+h2 {
+  color: #3159a9;
 }
 
 .pub {
@@ -28,7 +28,7 @@ h3 {
 }
 
 .banner {
-  background: grey;
+  background: #cccccc;
   /*width: 100%;*/
   padding: 60;
   text-align: center;
