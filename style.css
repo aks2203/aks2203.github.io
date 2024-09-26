@@ -39,3 +39,17 @@ h2 {
   /*bottom:0px;*/
   /*left:0px;*/
 }
+
+.pub {
+  margin-bottom: 10px;
+}
+.pub u {
+  color: #3159a9;
+}
+.pub a {
+  color: #3159a9;
+  text-decoration: none;
+}
+.pub a:hover {
+  text-decoration: underline;
+}
