@@ -77,6 +77,16 @@ h2 {
     color: #3159a9;
 }
 
+.profile-pic {
+  float: right;
+  margin-top: -40px;
+  margin-left: 20px; /* Adds some space between the image and the text */
+  margin-bottom: 10px; /* Adds some space below the image */
+  width: 240px;
+  height: 240px;
+}
+
+
 /* Navigation tabs */
 .nav-tabs {
     border-bottom: 2px solid #7e98cc;
