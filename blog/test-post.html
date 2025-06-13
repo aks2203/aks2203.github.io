@@ -1,47 +1,27 @@
 <html>
  <head>
-  <title>Reflections on AI Safety Research - Avi Schwarzschild</title>
-  <link rel="stylesheet" href="../style.css"/>
- </head>
- <body>
-  <div class="back-link">
-    <a href="../index.html">← Back to Home</a> | <a href="../index.html#blog" onclick="showTab('blog')">← Back to Blog Posts</a>
-  </div>
-
-  <div class="blog-header">
-    <div class="blog-date">June 10, 2025</div>
-    <h1 class="blog-post-title">Reflections on AI Safety Research</h1>
-  </div>
-
-  <div class="blog-content">
-    <p>After spending months diving deep into adversarial attacks and model security, I've been thinking about the broader implications of our work. The field is moving so fast that sometimes we need to pause and consider whether we're asking the right questions.</p>
-
-    <p>One thing that strikes me is how the problems we're solving today will shape the AI systems of tomorrow. When we develop new attack methods, we're not just publishing papers—we're revealing vulnerabilities that need to be addressed before these systems are deployed at scale.</p>
-
-    <p>The interdisciplinary nature of AI safety research continues to surprise me. We're drawing from game theory, cryptography, psychology, and even philosophy to understand how to build systems that are both powerful and aligned with human values.</p>
-
-    <p>Looking ahead, I'm excited about the potential for more collaborative approaches to safety research. The challenges we face are too complex for any one lab or institution to solve alone.</p>
-
-    <p><em>What are your thoughts on the current state of AI safety research? Feel free to reach out via email or Twitter.</em></p>
-  </div>
-
-  <div class="back-link" style="margin-top: 40px;">
-    <a href="../index.html">← Back to Home</a> | <a href="../index.html#blog" onclick="showTab('blog')">← Back to Blog Posts</a>
-  </div>
-  <script>
-    function showTab(tabName) {
-      // This function will work when the page loads if coming from a blog post link
-      setTimeout(() => {
-        const contents = document.querySelectorAll('.tab-content');
-        contents.forEach(content => content.classList.remove('active'));
-        
-        const buttons = document.querySelectorAll('.nav-tabs button');
-        buttons.forEach(button => button.classList.remove('active'));
-        
-        document.getElementById(tabName).classList.add('active');
-        document.getElementById(tabName + '-tab').classList.add('active');
-      }, 100);
-    }
-  </script>
- </body>
+<title>Reflections on AI Safety Research - Avi Schwarzschild</title>
+<link rel="stylesheet" href="../style.css"/>
+</head>
+<body>
+    <!-- Navigation -->
+    <div class="nav">
+        <a href="../index.html">Home</a> <a href="../blog-list.html">Blog</a>
+    </div>
+<div class="blog-header">
+<div class="blog-date">June 10, 2025</div>
+<h1 class="blog-post-title">Reflections on AI Safety Research</h1>
+</div>
+<div class="blog-content">
+<p>After spending months diving deep into adversarial attacks and model security, I've been thinking about the broader implications of our work. The field is moving so fast that sometimes we need to pause and consider whether we're asking the right questions.</p>
+<p>One thing that strikes me is how the problems we're solving today will shape the AI systems of tomorrow. When we develop new attack methods, we're not just publishing papers—we're revealing vulnerabilities that need to be addressed before these systems are deployed at scale.</p>
+<p>The interdisciplinary nature of AI safety research continues to surprise me. We're drawing from game theory, cryptography, psychology, and even philosophy to understand how to build systems that are both powerful and aligned with human values.</p>
+<p>Looking ahead, I'm excited about the potential for more collaborative approaches to safety research. The challenges we face are too complex for any one lab or institution to solve alone.</p>
+<p><em>What are your thoughts on the current state of AI safety research? Feel free to reach out via email or Twitter.</em></p>
+</div>
+    <!-- Navigation -->
+    <div class="nav">
+        <a href="../index.html">Home</a> <a href="../blog-list.html">Blog</a>
+    </div>
+</body>
 </html>
