@@ -23,33 +23,132 @@ h2 {
 }
 
 .pub {
-        padding-left: 0em;
-        text-indent:0em;
+    padding-left: 0em;
+    text-indent: 0em;
+    margin-bottom: 10px;
 }
 
-.banner {
-  background: #cccccc;
-  /*width: 100%;*/
-  padding: 60;
-  text-align: center;
-  color: white;
-  /*position:absolute;*/
-  /*top:0px;*/
-  /*right:0px;*/
-  /*bottom:0px;*/
-  /*left:0px;*/
-}
-
-.pub {
-  margin-bottom: 10px;
-}
 .pub u {
   color: #3159a9;
 }
+
 .pub a {
   color: #3159a9;
   text-decoration: none;
 }
+
 .pub a:hover {
   text-decoration: underline;
+}
+
+.banner {
+  background: #cccccc;
+  padding: 60;
+  text-align: center;
+  color: white;
+}
+
+/* Header styling */
+.header {
+    font-size: 51px;
+    color: #3159a9;
+}
+
+/* Navigation tabs */
+.nav-tabs {
+    border-bottom: 2px solid #7e98cc;
+    margin-bottom: 20px;
+}
+
+.nav-tabs button {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #3159a9;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-tabs button.active {
+    border-bottom: 2px solid #3159a9;
+    font-weight: bold;
+}
+
+.nav-tabs button:hover {
+    background-color: #f0f4ff;
+}
+
+/* Tab content */
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Blog styles */
+.blog-post {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.blog-post:last-child {
+    border-bottom: none;
+}
+
+.blog-date {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.blog-title {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.blog-title a {
+    color: #3159a9;
+    text-decoration: none;
+}
+
+.blog-title a:hover {
+    text-decoration: underline;
+}
+
+/* Individual blog post styles */
+.blog-header {
+    margin-bottom: 30px;
+}
+
+.blog-post-title {
+    font-size: 28px;
+    color: #3159a9;
+    margin-bottom: 20px;
+}
+
+.blog-content {
+    line-height: 1.6;
+    max-width: 800px;
+}
+
+.blog-content p {
+    margin-bottom: 15px;
+}
+
+.back-link {
+    margin-bottom: 20px;
+}
+
+.back-link a {
+    color: #3159a9;
+    text-decoration: none;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
 }
