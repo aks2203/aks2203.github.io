@@ -8,7 +8,7 @@ body {
     background: #fff;
     color: #222;
     margin: auto;
-    max-width: 700px;
+    max-width: 800px;
     padding: 0 20px;
     margin-top: 100px;
 }
@@ -23,33 +23,199 @@ h2 {
 }
 
 .pub {
-        padding-left: 0em;
-        text-indent:0em;
+    padding-left: 0em;
+    text-indent: 0em;
+    margin-bottom: 10px;
 }
 
-.banner {
-  background: #cccccc;
-  /*width: 100%;*/
-  padding: 60;
-  text-align: center;
-  color: white;
-  /*position:absolute;*/
-  /*top:0px;*/
-  /*right:0px;*/
-  /*bottom:0px;*/
-  /*left:0px;*/
-}
-
-.pub {
-  margin-bottom: 10px;
-}
 .pub u {
   color: #3159a9;
 }
+
 .pub a {
   color: #3159a9;
   text-decoration: none;
 }
+
 .pub a:hover {
   text-decoration: underline;
+}
+
+.blog {
+    padding-top: 1em;
+    padding-left: 0em;
+    text-indent: 0em;
+    margin-bottom: 10px;
+}
+
+.blog u {
+  color: #3159a9;
+}
+
+.blog a {
+  color: #3159a9;
+  text-decoration: none;
+  font-size: large;
+}
+
+.blog a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  background-color: #f5f5f5ad;
+  /* background: #cccccc; */
+  padding: 60;
+  text-align: center;
+  /* color: white; */
+  color: rgb(114, 114, 114)
+}
+
+/* Header styling */
+.header {
+    font-size: 51px;
+    color: #3159a9;
+}
+
+.profile-pic {
+  float: right;
+  margin-top: -40px;
+  margin-left: 20px; /* Adds some space between the image and the text */
+  margin-bottom: 10px; /* Adds some space below the image */
+  width: 240px;
+  height: 240px;
+}
+
+
+/* Navigation tabs */
+.nav-tabs {
+    border-bottom: 2px solid #7e98cc;
+    margin-bottom: 20px;
+}
+
+.nav-tabs button {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #3159a9;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-tabs button.active {
+    border-bottom: 2px solid #3159a9;
+    font-weight: bold;
+}
+
+.nav-tabs button:hover {
+    background-color: #f0f4ff;
+}
+
+/* Tab content */
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Blog styles */
+.blog-post {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.blog-post:last-child {
+    border-bottom: none;
+}
+
+.blog-date {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.blog-title {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.blog-title a {
+    color: #3159a9;
+    text-decoration: none;
+}
+
+.blog-title a:hover {
+    text-decoration: underline;
+}
+
+/* Individual blog post styles */
+.blog-header {
+    margin-bottom: 30px;
+}
+
+.blog-post-title {
+    font-size: 28px;
+    color: #3159a9;
+    margin-bottom: 20px;
+}
+
+.blog-content {
+    line-height: 1.6;
+    max-width: 800px;
+}
+
+.blog-content p {
+    margin-bottom: 15px;
+}
+
+.back-link {
+    margin-bottom: 20px;
+}
+
+.back-link a {
+    color: #3159a9;
+    text-decoration: none;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation bar styling */
+.nav {
+    background-color: #f5f5f5ad;
+    padding: 10px 0;
+    text-align: left;
+    margin-bottom: 40px;
+    color: #1a3f7a;
+    font-size: large;
+    font-weight: lighter;
+}
+
+.nav a {
+    color: #3159a9;; /* White text for contrast */
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    display: inline-block;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+    border-radius: 5px; /* Slightly rounded buttons */
+}
+
+.nav a:hover {
+    background-color: #a0aecb; /* A nice green on hover */
+    /* color: white; */
+}
+
+.nav a.active {
+    /* background-color: #7e98cc; A darker blue for the active link */
+    /* color: white; */
+    cursor: default; /* No pointer for active link */
+    text-decoration: underline; /* No underline for active link */
 }
